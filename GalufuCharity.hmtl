@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - SecurityChain</title>
+<meta charset="UTF-8" />
+<title>SecurifyChain</title>
+<link rel="stylesheet" type="text/css" href="securify.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script defer src="/home/galufu/Desktop/SecurifyChain"></script>
+<style>
+   body {
+    background-color: rgb(123, 123, 179);
+    text-align: center;
+    top: 40px;
+    bottom: 34px;
+    text-size-adjust: 20;
+    font-size:large;
+    border: 40px;
+    box-shadow: 50px;
+
+}
+h1 {
+    color: rgb(170, 170, 207);
+    text-align: center;
+}
+form {
+    background-color:transparent;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 80px 50px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+input {
+        margin: 6;
+        border: n40px;
+        border-radius: 2px;
+        width: 75%;
+        padding: 10px;
+        font-size: 12px;
+        background-color: maroon;
+        margin: top 5px;;
+}
+button {
+    position:absolute;
+    right: 230px;
+    background-color: transparent;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 11px;
+    text-align: center;
+    display:grid;
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+button :hover {
+    background-color: black;
+}
+    
+      body {
+          background-image:url('RHT.jpg');
+    }
+</style>
+</head>
+<body>
+    <h1>WELCOME TO GALUFU CHARITY ORGANIZATION</h1>
+    <div class="login-container">
+        <h2>LOGIN</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+            <input type="submit" value="forgot password">
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>
